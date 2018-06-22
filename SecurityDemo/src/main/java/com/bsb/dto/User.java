@@ -1,7 +1,11 @@
 package com.bsb.dto;
 
+import com.bsb.validator.MyConstraint;
 import com.fasterxml.jackson.annotation.JsonView;
 
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Past;
 import java.util.Date;
 
 
@@ -19,10 +23,13 @@ public class User {
 
 	private String id;
 
+	@MyConstraint(message = "这是一个测试")
 	private String username;
 
+	@NotBlank(message = "密码不能为空")
 	private String password;
 
+	@Past(message = "生日必须为过去时间")
 	private Date birthday;
 
 	@JsonView(UserSimpleView.class)
@@ -43,6 +50,7 @@ public class User {
 		this.password = password;
 	}
 
+	@JsonView(UserSimpleView.class)
 	public String getId() {
 		return id;
 	}
@@ -51,6 +59,7 @@ public class User {
 		this.id = id;
 	}
 
+	@JsonView(UserSimpleView.class)
 	public Date getBirthday() {
 		return birthday;
 	}

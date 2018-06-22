@@ -1,9 +1,12 @@
 package com.bsb.dto;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class UserQueryCondition {
 
     private String username;
 
+    @ApiModelProperty(value = "用户年龄起始")
     private int age;
 
     private int ageTo;
