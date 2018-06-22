@@ -9,10 +9,6 @@ spring:
   output:
     ansi:
       enabled: always
-  security:
-    user:
-      name: zsz
-      password: 123456
 server:
   port: 8060
 
