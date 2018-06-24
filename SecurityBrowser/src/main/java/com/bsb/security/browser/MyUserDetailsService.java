@@ -1,5 +1,6 @@
 package com.bsb.security.browser;
 
+import com.bsb.security.browser.mapper.IUserMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,9 @@ public class MyUserDetailsService implements UserDetailsService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private IUserMapper userMapper;
+
 
     private Logger logger = LoggerFactory.getLogger(getClass());
 
@@ -24,8 +28,9 @@ public class MyUserDetailsService implements UserDetailsService {
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 //        根据用户名查找用户信息
         logger.info(username);
-        String passwordEn = passwordEncoder.encode("123456");
-        logger.info("密码为 " + passwordEn);
-        return new User(username, passwordEncoder.encode("6566798"), AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
+        String password  = userMapper.login(username);
+//        String passwordEn = passwordEncoder.encode("123456");
+//        logger.info("密码为 " + passwordEn);
+        return new User(username, passwordEncoder.encode(password), AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
     }
 }
