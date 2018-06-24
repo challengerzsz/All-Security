@@ -15,4 +15,5 @@ server:
 bsb:
   security:
     browser:
-      loginPage: /demo-signIn.html
+#      loginPage: /signIn.html
+      loginType: REDIRECT
