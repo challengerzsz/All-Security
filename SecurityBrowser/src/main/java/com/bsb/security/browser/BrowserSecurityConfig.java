@@ -35,6 +35,8 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
 
         ValidateCodeFilter filter = new ValidateCodeFilter();
         filter.setAuthenticationFailureHandler(myAuthenticationFailureHandler);
+        filter.setSecurityProperties(securityProperties);
+        filter.afterPropertiesSet();
 
         http
                 .addFilterBefore(filter, UsernamePasswordAuthenticationFilter.class)

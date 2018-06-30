@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
-//@Aspect
-//@Component
+@Aspect
+@Component
 public class TimeAspect {
 
 //    切点是UserController类中一些方法(任意返回值，参数不固定)

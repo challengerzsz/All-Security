@@ -17,3 +17,8 @@ bsb:
     browser:
 #      loginPage: /signIn.html
       loginType: REDIRECT
+    code:
+      imageCodeProperties:
+        length: 6
+        width: 100
+        url: /user,/user/*
