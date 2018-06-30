@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.bsb.security.core.properties.SecurityProperties",
+      "name": "bsb.security",
+      "type": "com.bsb.security.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.bsb.security.core.properties.SecurityProperties",
+      "name": "bsb.security.browser",
+      "type": "com.bsb.security.core.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.bsb.security.core.properties.SecurityProperties",
+      "name": "bsb.security.code",
+      "type": "com.bsb.security.core.properties.ValidateCodeProperties"
+    }
+  ]
+}
