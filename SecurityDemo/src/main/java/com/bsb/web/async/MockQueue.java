@@ -13,10 +13,6 @@ public class MockQueue {
 
     private String completeOrder;
 
-    public String getPlaceOrder() {
-        return placeOrder;
-    }
-
     public void setPlaceOrder(String placeOrder) {
 
         new Thread(() -> {
@@ -30,6 +26,18 @@ public class MockQueue {
             logger.info("下单请求处理完毕" + placeOrder);
         }).start();
 
+    }
+
+    public String getPlaceOrder() {
+        return placeOrder;
+    }
+
+    public Logger getLogger() {
+        return logger;
+    }
+
+    public void setLogger(Logger logger) {
+        this.logger = logger;
     }
 
     public String getCompleteOrder() {

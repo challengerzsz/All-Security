@@ -9,9 +9,20 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 
+/**
+ * 拦截器会拦截自己实现的Controller也会拦截Spring源码实现的Controller
+ */
 //@Component
 public class TimeInterceptor implements HandlerInterceptor {
 
+    /**
+     * 返回的布尔值决定之后的逻辑是否会执行
+     * @param request
+     * @param response
+     * @param handler
+     * @return
+     * @throws Exception
+     */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         System.out.println("preHandle");
@@ -22,6 +33,14 @@ public class TimeInterceptor implements HandlerInterceptor {
         return true;
     }
 
+    /**
+     * 若该方法抛出异常则不会执行该方法
+     * @param request
+     * @param response
+     * @param handler
+     * @param modelAndView
+     * @throws Exception
+     */
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         System.out.println("postHandle");

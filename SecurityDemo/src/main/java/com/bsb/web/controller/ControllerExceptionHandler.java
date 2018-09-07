@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 控制器增强，会将这个Handler作为其余Controller抛出自定义异常的处理器
+ */
 @ControllerAdvice
 public class ControllerExceptionHandler {
 

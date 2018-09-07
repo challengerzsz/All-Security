@@ -11,15 +11,13 @@ import java.util.Date;
 @Component
 public class TimeAspect {
 
-//    切点是UserController类中一些方法(任意返回值，参数不固定)
-
     /**
-     *
+     * 切点是UserController类中一些方法(任意返回值，参数不固定)
      * @param proceedingJoinPoint 可以取到控制器接收的参数
      * @return
      * @throws Throwable
      */
-    //todo 拦截器 过滤器 切片 起作用的顺序
+    //todo 过滤器 拦截器 切片
     @Around("execution(* com.bsb.web.controller.UserController.*(..))")
     public Object handleControllerMethod(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
 

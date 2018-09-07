@@ -53,9 +53,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
 
         }
 
-
         if (action) {
-
             try {
                 validate(new ServletWebRequest(httpServletRequest));
             } catch (ValidateCodeException e) {

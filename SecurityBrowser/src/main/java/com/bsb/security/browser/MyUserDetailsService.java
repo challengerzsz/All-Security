@@ -26,11 +26,11 @@ public class MyUserDetailsService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-//        根据用户名查找用户信息
-        logger.info(username);
-        String password  = userMapper.login(username);
-//        String passwordEn = passwordEncoder.encode("123456");
-//        logger.info("密码为 " + passwordEn);
-        return new User(username, passwordEncoder.encode(password), AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
+//        根据用户名查找并封装用户信息UserDetails实例
+        String password  = userMapper.getLoginPassword(username);
+
+//        这里应该只是给出数据库中的密码，应在注册时和修改密码时进行加密
+        return new User(username, passwordEncoder.encode(password), true, true,
+                true, true, AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
     }
 }

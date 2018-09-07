@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.AsyncSupportConfigurer;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
@@ -31,6 +30,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         TimeFilter timeFilter = new TimeFilter();
         registrationBean.setFilter(timeFilter);
 
+//        基于配置类可以配置过滤什么url
         List<String> urls = new ArrayList<>();
         urls.add("/*");
         registrationBean.setUrlPatterns(urls);

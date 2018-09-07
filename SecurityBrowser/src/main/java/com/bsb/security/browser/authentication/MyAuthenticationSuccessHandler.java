@@ -31,7 +31,8 @@ public class MyAuthenticationSuccessHandler extends SavedRequestAwareAuthenticat
     private SecurityProperties securityProperties;
 
     @Override
-    public void onAuthenticationSuccess(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Authentication authentication) throws IOException, ServletException {
+    public void onAuthenticationSuccess(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse,
+                                        Authentication authentication) throws IOException, ServletException {
 
         logger.info("认证成功");
 
@@ -41,8 +42,6 @@ public class MyAuthenticationSuccessHandler extends SavedRequestAwareAuthenticat
         } else {
             super.onAuthenticationSuccess(httpServletRequest, httpServletResponse, authentication);
         }
-
-
 
     }
 }

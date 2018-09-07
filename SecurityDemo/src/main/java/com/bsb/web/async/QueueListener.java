@@ -8,6 +8,9 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 
+/**
+ * 初始化完毕Spring容器的接口
+ */
 @Component
 public class QueueListener implements ApplicationListener<ContextRefreshedEvent> {
 

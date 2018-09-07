@@ -15,10 +15,10 @@ server:
 bsb:
   security:
     browser:
-#      loginPage: /signIn.html
-      loginType: REDIRECT
+      loginPage: /signIn.html
+#      loginType: REDIRECT
     code:
       imageCodeProperties:
-        length: 6
+        length: 4
         width: 100
         url: /user,/user/*

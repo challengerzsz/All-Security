@@ -30,7 +30,8 @@ public class MyAuthenticationFailureHandler extends SimpleUrlAuthenticationFailu
     private SecurityProperties securityProperties;
 
     @Override
-    public void onAuthenticationFailure(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AuthenticationException e) throws IOException, ServletException {
+    public void onAuthenticationFailure(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse,
+                                        AuthenticationException e) throws IOException, ServletException {
         logger.info("认证失败");
 
         if (LoginType.REDIRECT.equals(securityProperties.getBrowser().getLoginType())) {

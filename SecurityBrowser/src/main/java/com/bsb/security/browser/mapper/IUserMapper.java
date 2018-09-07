@@ -9,5 +9,5 @@ import org.apache.ibatis.annotations.Select;
 public interface IUserMapper {
 
     @Select("SELECT password FROM user_table WHERE username = #{username}")
-    String login(@Param("username") String username);
+    String getLoginPassword(@Param("username") String username);
 }

@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
+/**
+ * 自定义注解校验逻辑
+ */
 public class MyConstraintValidator implements ConstraintValidator<MyConstraint, Object> {
 
     @Autowired
@@ -16,6 +19,12 @@ public class MyConstraintValidator implements ConstraintValidator<MyConstraint, 
         System.out.println("My validator init");
     }
 
+    /**
+     *
+     * @param o 添加注解的字段值
+     * @param constraintValidatorContext
+     * @return
+     */
     @Override
     public boolean isValid(Object o, ConstraintValidatorContext constraintValidatorContext) {
 
