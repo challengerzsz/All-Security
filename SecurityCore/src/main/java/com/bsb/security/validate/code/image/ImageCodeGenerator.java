@@ -1,6 +1,7 @@
-package com.bsb.security.validate.code;
+package com.bsb.security.validate.code.image;
 
 import com.bsb.security.core.properties.SecurityProperties;
+import com.bsb.security.validate.code.ValidateCodeGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
@@ -11,11 +12,11 @@ import java.util.Random;
 
 public class ImageCodeGenerator implements ValidateCodeGenerator {
 
-
     @Autowired
     private SecurityProperties securityProperties;
 
-    public ImageCode createImageCode(ServletWebRequest request) {
+    @Override
+    public ImageCode generate(ServletWebRequest request) {
 //        请求级配置，如果在请求中获取不到这个参数，使用默认值，即在配置文件中配置的值
         int width = ServletRequestUtils.getIntParameter(request.getRequest(), "width",
                 securityProperties.getCode().getImageCodeProperties().getLength());

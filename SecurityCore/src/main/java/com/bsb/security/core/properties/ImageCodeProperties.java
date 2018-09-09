@@ -1,5 +1,8 @@
 package com.bsb.security.core.properties;
 
+/**
+ * 通过继承消除重复属性
+ */
 public class ImageCodeProperties extends SmsCodeProperties{
 
     private int width = 67;

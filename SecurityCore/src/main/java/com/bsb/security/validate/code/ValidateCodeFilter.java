@@ -1,6 +1,7 @@
 package com.bsb.security.validate.code;
 
 import com.bsb.security.core.properties.SecurityProperties;
+import com.bsb.security.validate.code.image.ImageCode;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
@@ -19,6 +20,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
+
+import static com.bsb.security.validate.code.ValidateCodeProcessor.SESSION_KEY_PREFIX;
 
 public class ValidateCodeFilter extends OncePerRequestFilter implements InitializingBean {
 
@@ -72,7 +75,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
 
     private void validate(ServletWebRequest servletWebRequest) throws ServletRequestBindingException, ValidateCodeException {
         ImageCode codeInSession = (ImageCode) sessionStrategy.getAttribute(servletWebRequest,
-                ValidateCodeController.SESSION_KEY);
+                SESSION_KEY_PREFIX);
 
         String codeInRequest = ServletRequestUtils.getStringParameter(servletWebRequest.getRequest(), "imageCode");
 
@@ -85,7 +88,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
         }
 
         if (codeInSession.isExpried()) {
-            sessionStrategy.removeAttribute(servletWebRequest, ValidateCodeController.SESSION_KEY);
+            sessionStrategy.removeAttribute(servletWebRequest, SESSION_KEY_PREFIX);
             throw new ValidateCodeException("验证码已过期");
         }
 
@@ -93,7 +96,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
             throw new ValidateCodeException("验证码不匹配");
         }
 
-        sessionStrategy.removeAttribute(servletWebRequest, ValidateCodeController.SESSION_KEY);
+        sessionStrategy.removeAttribute(servletWebRequest, SESSION_KEY_PREFIX);
     }
 
 

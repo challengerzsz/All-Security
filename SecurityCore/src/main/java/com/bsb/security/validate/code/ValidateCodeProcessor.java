@@ -4,7 +4,15 @@ import org.springframework.web.context.request.ServletWebRequest;
 
 public interface ValidateCodeProcessor {
 
+    /**
+     * 验证码存入session的前缀
+     */
     String SESSION_KEY_PREFIX = "SESSION_KEY_FOR_CODE_";
 
-    void create(ServletWebRequest request);
+    /**
+     * 创建校验码
+     * @param request
+     * @throws Exception
+     */
+    void create(ServletWebRequest request) throws Exception;
 }

@@ -1,4 +1,6 @@
-package com.bsb.security.validate.code;
+package com.bsb.security.validate.code.image;
+
+import com.bsb.security.validate.code.ValidateCode;
 
 import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
@@ -7,7 +9,6 @@ public class ImageCode extends ValidateCode {
 
 
     private BufferedImage image;
-
 
     public ImageCode(BufferedImage image, String code, LocalDateTime expireTime) {
         super(code, expireTime);
