@@ -32,6 +32,10 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
 
     private AntPathMatcher antPathMatcher = new AntPathMatcher();
 
+    /**
+     * 在Bean初始化完成之后初始化String类型的Set保存需要过滤的url
+     * @throws ServletException
+     */
     @Override
     public void afterPropertiesSet() throws ServletException {
         super.afterPropertiesSet();
@@ -57,6 +61,7 @@ public class ValidateCodeFilter extends OncePerRequestFilter implements Initiali
             try {
                 validate(new ServletWebRequest(httpServletRequest));
             } catch (ValidateCodeException e) {
+                //抛出异常之后不应该继续调用过滤器链
                 authenticationFailureHandler.onAuthenticationFailure(httpServletRequest, httpServletResponse, e);
                 return;
             }

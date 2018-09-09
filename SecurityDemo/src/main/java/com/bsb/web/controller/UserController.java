@@ -57,8 +57,6 @@ public class UserController {
 	@PostMapping
 	public User create(@Valid @RequestBody User user) {
 
-
-
 		user.setId("1");
 		System.out.println(user.getBirthday());
 		return user;

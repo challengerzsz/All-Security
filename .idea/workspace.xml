@@ -2,78 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7117146-3fcc-4980-ba5c-9ef382ac1339" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/BrowserSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/BrowserSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationFailureHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/mapper/IUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/mapper/IUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/target/classes/com/bsb/security/browser/BrowserSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/target/classes/com/bsb/security/browser/BrowserSecurityController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/target/classes/com/bsb/security/browser/MyUserDetailsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/target/classes/com/bsb/security/browser/authentication/MyAuthenticationFailureHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/target/classes/com/bsb/security/browser/authentication/MyAuthenticationSuccessHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/target/classes/com/bsb/security/browser/mapper/IUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/target/classes/com/bsb/security/browser/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/target/classes/com/bsb/security/browser/support/SimpleResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/target/classes/resources/signIn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityBrowser/target/test-classes/com/bsb/security/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/social/qq/connect/QQServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/social/qq/connect/QQServiceProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityBrowser/src/main/resources/resources/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityBrowser/src/main/resources/resources/signIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ImageCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ImageCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ImageCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ImageCodeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/core/SecurityCoreConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/core/properties/BrowserProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/core/properties/ImageCodeProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/core/properties/LoginType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/core/properties/SecurityProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/core/properties/ValidateCodeProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/validate/code/ImageCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/validate/code/ImageCodeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/validate/code/ValidateCodeBeanConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/validate/code/ValidateCodeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/validate/code/ValidateCodeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/validate/code/ValidateCodeFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/classes/com/bsb/security/validate/code/ValidateCodeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityCore/target/test-classes/com/bsb/security/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/validator/MyConstraintValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/validator/MyConstraintValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/aspect/TimeAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/aspect/TimeAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/AsyncController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/AsyncController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/MockQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/MockQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/QueueListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/QueueListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/controller/ControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/controller/ControllerExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/interceptor/TimeInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/interceptor/TimeInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/code/DemoImageCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/code/DemoImageCodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SecurityDemo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SecurityDemo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/code/DemoImageCodeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/dto/FileInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/dto/User$UserDetailViewView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/dto/User$UserSimpleView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/dto/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/dto/UserQueryCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/exception/UserNotExistException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/service/IHelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/service/impls/HelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/validator/MyConstraint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/validator/MyConstraintValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/web/aspect/TimeAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/web/async/AsyncController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/web/async/DeferredResultHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/web/async/MockQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/web/async/QueueListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/web/config/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/web/controller/ControllerExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/web/controller/FileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/web/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/web/filter/TimeFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/com/bsb/web/interceptor/TimeInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/resources/demo-signIn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/resources/error/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/classes/resources/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/test-classes/com/bsb/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SecurityDemo/target/test-classes/com/bsb/web/controller/UserControllerTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Security/target/" />
     <ignored path="$PROJECT_DIR$/SecurityCore/target/" />
@@ -109,44 +45,48 @@
     <session id="810782218">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="20" />
-          <entry key="html" value="2" />
-          <entry key="java" value="54" />
+          <entry key="class" value="38" />
+          <entry key="html" value="5" />
+          <entry key="java" value="84" />
           <entry key="xml" value="12" />
-          <entry key="yml" value="5" />
+          <entry key="yml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="20" />
-          <entry key="HTML" value="2" />
-          <entry key="JAVA" value="54" />
+          <entry key="CLASS" value="38" />
+          <entry key="HTML" value="5" />
+          <entry key="JAVA" value="84" />
           <entry key="XML" value="12" />
-          <entry key="YAML" value="5" />
+          <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="440" />
+          <entry key="html" value="31" />
+          <entry key="java" value="660" />
           <entry key="xml" value="17" />
-          <entry key="yml" value="21" />
+          <entry key="yml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="440" />
+          <entry key="HTML" value="31" />
+          <entry key="JAVA" value="660" />
           <entry key="XML" value="17" />
-          <entry key="YAML" value="21" />
+          <entry key="YAML" value="23" />
         </counts>
       </usages-collector>
     </session>
@@ -154,43 +94,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationSuccessHandler.java">
+        <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationFailureHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="644">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/BrowserSecurityController.java">
+        <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/SecurityProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="908">
-              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -198,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/BrowserProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="308">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -207,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/BrowserSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+            <state relative-caret-position="698">
+              <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1802#1803#0" expanded="true" />
@@ -219,19 +135,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.6.RELEASE/spring-security-config-5.0.6.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.6.RELEASE/spring-security-config-5.0.6.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1568">
-              <caret line="82" column="51" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
+            <state relative-caret-position="335">
+              <caret line="112" column="67" selection-start-line="112" selection-start-column="67" selection-end-line="112" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationSuccessHandler.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.6.RELEASE/spring-security-config-5.0.6.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/RememberMeConfigurer.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1064">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/rememberme/JdbcTokenRepositoryImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/code/DemoImageCodeGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -285,20 +237,15 @@
         <option value="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/DemoApplication.java" />
         <option value="$PROJECT_DIR$/SecurityBrowser/pom.xml" />
         <option value="$PROJECT_DIR$/SecurityCore/pom.xml" />
-        <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ImageCode.java" />
         <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeException.java" />
         <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/ValidateCodeProperties.java" />
         <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/SecurityProperties.java" />
         <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/ImageCodeProperties.java" />
         <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeGenerator.java" />
         <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeController.java" />
-        <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ImageCodeGenerator.java" />
         <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeBeanConfig.java" />
-        <option value="$PROJECT_DIR$/SecurityBrowser/src/main/resources/resources/signIn.html" />
-        <option value="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/code/DemoImageCodeGenerator.java" />
         <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/BrowserProperties.java" />
         <option value="$PROJECT_DIR$/SecurityDemo/pom.xml" />
-        <option value="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/controller/UserController.java" />
         <option value="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/aspect/TimeAspect.java" />
         <option value="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/AsyncController.java" />
         <option value="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/QueueListener.java" />
@@ -311,12 +258,17 @@
         <option value="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/filter/TimeFilter.java" />
         <option value="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/mapper/IUserMapper.java" />
         <option value="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/BrowserSecurityController.java" />
-        <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeFilter.java" />
         <option value="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/SecurityDemo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/BrowserSecurityConfig.java" />
         <option value="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationFailureHandler.java" />
         <option value="$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ImageCode.java" />
+        <option value="$PROJECT_DIR$/SecurityDemo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ImageCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/SecurityBrowser/src/main/resources/resources/signIn.html" />
+        <option value="$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeFilter.java" />
+        <option value="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/code/DemoImageCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -391,10 +343,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1985" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="x" value="1719" />
+    <option name="y" value="161" />
+    <option name="width" value="1853" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -406,8 +358,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -444,42 +394,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="browser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SecurityBrowser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
-              <item name="authentication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SecurityBrowser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SecurityBrowser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SecurityBrowser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
@@ -547,6 +461,25 @@
             </path>
             <path>
               <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecurityCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecurityCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="impls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
               <item name="SecurityDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -559,6 +492,49 @@
               <item name="SecurityDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecurityDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecurityDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bsb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecurityDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bsb" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecurityDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bsb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecurityDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bsb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
@@ -567,19 +543,29 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="All-Security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecurityDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="UserD&#9;FILE&#9;file:///home/zeng/projects/All-Security/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java&#10;UsernamePasswordA&#9;FILE&#9;jar:///home/zeng/.m2/repository/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class&#10;BasicError&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController&#10;RememberS&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.RememberMeServices&#10;My&#9;FILE&#9;file://E:/All-Security/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java&#10;UserDetailsService&#9;FILE&#9;file://E:/All-Security/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java&#10;FilterSecurityInterceptor &#9;PSI&#9;JAVA://org.springframework.security.web.access.intercept.FilterSecurityInterceptor&#10;UsernamePass&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&#10;ExceptionTranslationFilter&#9;PSI&#9;JAVA://org.springframework.security.web.access.ExceptionTranslationFilter&#10;ExceptionTrans&#9;PSI&#9;JAVA://org.springframework.data.redis.ExceptionTranslationStrategy&#10;FilterSecuri&#9;FILE&#9;jar://C:/Users/66490/.m2/repository/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.class&#10;UsernamePassword&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&#10;ExceptionTranslationFi&#9;PSI&#9;JAVA://org.springframework.security.web.access.ExceptionTranslationFilter&#10;FilterSecurity&#9;PSI&#9;JAVA://org.springframework.security.web.access.intercept.FilterSecurityInterceptor&#10;BasicErrorCon&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController" />
+    <property name="SearchEverywhereHistoryKey" value="RememberMeAuthen&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter&#10;RememberMeAuth&#9;PSI&#9;JAVA://org.springframework.security.authentication.RememberMeAuthenticationToken&#10;RememberMeAF&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationException&#10;UserD&#9;FILE&#9;file:///home/zeng/projects/All-Security/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java&#10;UsernamePasswordA&#9;FILE&#9;jar:///home/zeng/.m2/repository/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class&#10;BasicError&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController&#10;RememberS&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.RememberMeServices&#10;My&#9;FILE&#9;file://E:/All-Security/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java&#10;UserDetailsService&#9;FILE&#9;file://E:/All-Security/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java&#10;FilterSecurityInterceptor &#9;PSI&#9;JAVA://org.springframework.security.web.access.intercept.FilterSecurityInterceptor&#10;UsernamePass&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&#10;ExceptionTranslationFilter&#9;PSI&#9;JAVA://org.springframework.security.web.access.ExceptionTranslationFilter&#10;ExceptionTrans&#9;PSI&#9;JAVA://org.springframework.data.redis.ExceptionTranslationStrategy&#10;FilterSecuri&#9;FILE&#9;jar://C:/Users/66490/.m2/repository/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.class&#10;UsernamePassword&#9;PSI&#9;JAVA://org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter&#10;ExceptionTranslationFi&#9;PSI&#9;JAVA://org.springframework.security.web.access.ExceptionTranslationFilter&#10;FilterSecurity&#9;PSI&#9;JAVA://org.springframework.security.web.access.intercept.FilterSecurityInterceptor&#10;BasicErrorCon&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536338530217" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536466352461" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -786,7 +772,9 @@
       <workItem from="1534132741567" duration="12348000" />
       <workItem from="1534294892041" duration="139000" />
       <workItem from="1536313093123" duration="13398000" />
-      <workItem from="1536336267577" duration="2507000" />
+      <workItem from="1536336267577" duration="3106000" />
+      <workItem from="1536418136886" duration="4092000" />
+      <workItem from="1536460220590" duration="4382000" />
     </task>
     <task id="LOCAL-00001" summary="创建一个简易的Restful服务 回顾过滤器监听器AOP知识点 明天开始security核心编码">
       <created>1529647782450</created>
@@ -873,7 +861,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102493000" />
+    <option name="totallyTimeSpent" value="111566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -889,7 +877,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4985755" visible="true" weight="0.18739635" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4985755" visible="true" weight="0.19181868" />
       <window_info id="Structure" order="2" sideWeight="0.5014245" side_tool="true" weight="0.2533512" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
@@ -914,13 +902,47 @@
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.2498618" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven Projects" order="4" visible="true" weight="0.14040907" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.14040907" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Palette" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4985755" visible="true" weight="0.18960752" />
+      <window_info id="Structure" order="2" sideWeight="0.5014245" side_tool="true" weight="0.2533512" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.7295597" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.3281027" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3281027" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49865952" weight="0.6666667" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49932975" weight="0.6572327" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.39942938" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.6666667" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32952926" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32905984" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32905984" />
+      <window_info anchor="right" id="Bean Validation" order="0" weight="0.32946378" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.2498618" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.14040907" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -981,218 +1003,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/QueueListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/MockQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/DeferredResultHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/dto/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/javax/validation/constraints/Past.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/javax/validation/ConstraintValidator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/resources/resources/error/404.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.13/swagger-annotations-1.5.13.jar!/io/swagger/annotations/ApiOperation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/org/aspectj/lang/JoinPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/org/aspectj/lang/ProceedingJoinPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar!/org/aspectj/runtime/reflect/JoinPointImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/validator/MyConstraintValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/exception/UserNotExistException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/aspect/TimeAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/controller/ControllerExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/async/AsyncController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/social/qq/connect/QQServiceProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityCore/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1848" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityBrowser/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityApp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/validator/MyConstraint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/interceptor/TimeInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/filter/TimeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Security/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1231,9 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/resources/resources/signIn.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/http/HttpStatus.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -1241,17 +1052,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/LoginType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/BrowserSecurityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1269,38 +1101,252 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationFailureHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/environment/jdk1.8.0_161/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-web/1.1.6.RELEASE/spring-social-web-1.1.6.RELEASE.jar!/org/springframework/social/connect/web/SessionStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/social/spring-social-web/1.1.6.RELEASE/spring-social-web-1.1.6.RELEASE.jar!/org/springframework/social/connect/web/HttpSessionSessionStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/context/request/RequestAttributes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/context/request/ServletRequestAttributes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/impls/AbstractValidateCodeProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationFailureHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/SmsCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE.jar!/org/springframework/security/core/AuthenticationException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/resources/resources/demo-signIn.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ImageCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/ValidateCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/resources/resources/signIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="37" column="68" lean-forward="true" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/ImageCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ImageCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/validate/code/ValidateCodeBeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE.jar!/org/springframework/security/authentication/RememberMeAuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/rememberme/RememberMeAuthenticationException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/rememberme/RememberMeAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="48" column="72" lean-forward="true" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/RememberMeServices.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/rememberme/AbstractRememberMeServices.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.6.RELEASE/spring-security-web-5.0.6.RELEASE.jar!/org/springframework/security/web/authentication/rememberme/JdbcTokenRepositoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="644">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/LoginType.java">
+    <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/SecurityProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/BrowserSecurityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SecurityCore/src/main/java/com/bsb/security/core/properties/BrowserProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="308">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/code/DemoImageCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/BrowserSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        <state relative-caret-position="698">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1802#1803#0" expanded="true" />
@@ -1309,30 +1355,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationSuccessHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.6.RELEASE/spring-security-config-5.0.6.RELEASE.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        <state relative-caret-position="335">
+          <caret line="112" column="67" selection-start-line="112" selection-start-column="67" selection-end-line="112" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/MyUserDetailsService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.6.RELEASE/spring-security-config-5.0.6.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/RememberMeConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SecurityBrowser/src/main/java/com/bsb/security/browser/authentication/MyAuthenticationFailureHandler.java">
+    <entry file="file://$PROJECT_DIR$/SecurityDemo/src/main/java/com/bsb/web/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1064">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
         </state>
       </provider>
     </entry>

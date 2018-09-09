@@ -3,7 +3,7 @@ package com.bsb.security.validate.code;
 import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;
 
-public class ImageCode extends ValidateCode{
+public class ImageCode extends ValidateCode {
 
 
     private BufferedImage image;

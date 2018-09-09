@@ -16,6 +16,7 @@ public class ImageCodeGenerator implements ValidateCodeGenerator {
     private SecurityProperties securityProperties;
 
     public ImageCode createImageCode(ServletWebRequest request) {
+//        请求级配置，如果在请求中获取不到这个参数，使用默认值，即在配置文件中配置的值
         int width = ServletRequestUtils.getIntParameter(request.getRequest(), "width",
                 securityProperties.getCode().getImageCodeProperties().getLength());
         int height = ServletRequestUtils.getIntParameter(request.getRequest(), "height",
@@ -40,8 +41,6 @@ public class ImageCodeGenerator implements ValidateCodeGenerator {
         }
 
         String sRand = "";
-
-
 
         for (int i = 0; i < securityProperties.getCode().getImageCodeProperties().getLength(); i++) {
             String rand = String.valueOf(random.nextInt(10));
