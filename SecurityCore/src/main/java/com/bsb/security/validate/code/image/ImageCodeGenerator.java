@@ -3,6 +3,7 @@ package com.bsb.security.validate.code.image;
 import com.bsb.security.core.properties.SecurityProperties;
 import com.bsb.security.validate.code.ValidateCodeGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
 
@@ -10,6 +11,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.Random;
 
+@Component("imageValidateCodeGenerator")
 public class ImageCodeGenerator implements ValidateCodeGenerator {
 
     @Autowired
@@ -51,6 +53,8 @@ public class ImageCodeGenerator implements ValidateCodeGenerator {
         }
 
         graphics.dispose();
+
+        System.out.println("验证码 " + sRand);
 
         return new ImageCode(image, sRand, securityProperties.getCode().getImageCodeProperties().getExpireIn());
     }

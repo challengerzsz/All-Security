@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@Component("myAuthenticationSuccessHandler")
+@Component("myAuthenticationFailureHandler")
 public class MyAuthenticationFailureHandler extends SimpleUrlAuthenticationFailureHandler {
 
     private Logger logger = LoggerFactory.getLogger(getClass());
@@ -34,7 +34,7 @@ public class MyAuthenticationFailureHandler extends SimpleUrlAuthenticationFailu
                                         AuthenticationException e) throws IOException, ServletException {
         logger.info("认证失败");
 
-        if (LoginType.REDIRECT.equals(securityProperties.getBrowser().getLoginType())) {
+        if (LoginType.JSON.equals(securityProperties.getBrowser().getLoginType())) {
             httpServletResponse.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
             httpServletResponse.setContentType("application/json;charset=UTF-8");
             httpServletResponse.getWriter().write((objectMapper.writeValueAsString(new SimpleResponse(e.getMessage()))));

@@ -1,19 +1,17 @@
 package com.bsb.security.browser;
 
-import com.bsb.security.browser.authentication.MyAuthenticationFailureHandler;
-import com.bsb.security.browser.authentication.MyAuthenticationSuccessHandler;
+import com.bsb.security.browser.authentication.AbstractChannelSecurityConfig;
+import com.bsb.security.validate.code.ValidateCodeSecurityConfig;
+import com.bsb.security.core.authentication.mobile.SmsCodeAuthenticationSecurityConfig;
+import com.bsb.security.core.properties.SecurityConstants;
 import com.bsb.security.core.properties.SecurityProperties;
-import com.bsb.security.validate.code.ValidateCodeFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
 import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
 
@@ -21,22 +19,23 @@ import javax.sql.DataSource;
 
 
 @Configuration
-public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
+public class BrowserSecurityConfig extends AbstractChannelSecurityConfig {
 
     @Autowired
     private SecurityProperties securityProperties;
-
-    @Autowired
-    private MyAuthenticationSuccessHandler authenticationSuccessHandler;
-
-    @Autowired
-    private MyAuthenticationFailureHandler myAuthenticationFailureHandler;
 
     @Autowired
     private DataSource dataSource;
 
     @Autowired
     private UserDetailsService userDetailsService;
+
+    @Autowired
+    private SmsCodeAuthenticationSecurityConfig smsCodeAuthenticationSecurityConfig;
+
+    @Autowired
+    private ValidateCodeSecurityConfig validateCodeSecurityConfig;
+
 
     @Bean
     public static PasswordEncoder passwordEncoder() {
@@ -56,18 +55,10 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
 
-        ValidateCodeFilter filter = new ValidateCodeFilter();
-        filter.setAuthenticationFailureHandler(myAuthenticationFailureHandler);
-        filter.setSecurityProperties(securityProperties);
-        filter.afterPropertiesSet();
-
-        http
-                .addFilterBefore(filter, UsernamePasswordAuthenticationFilter.class)
-                .formLogin()
-                .loginPage("/authentication/require")
-                .loginProcessingUrl("/authentication/form")
-                .successHandler(authenticationSuccessHandler)
-                .failureHandler(myAuthenticationFailureHandler)
+        applyPasswordAuthenticationConfig(http);
+        http.apply(validateCodeSecurityConfig)
+                .and()
+                .apply(smsCodeAuthenticationSecurityConfig)
                 .and()
                 .rememberMe()
                 .tokenRepository(persistentTokenRepository())
@@ -75,8 +66,12 @@ public class BrowserSecurityConfig extends WebSecurityConfigurerAdapter {
                 .userDetailsService(userDetailsService)
                 .and()
                 .authorizeRequests()
-                .antMatchers("/signIn.html", "/authentication/require",
-                        securityProperties.getBrowser().getLoginPage(), "/code/image").permitAll()
+                .antMatchers(
+                        SecurityConstants.DEFAULT_UNAUTHENTICATED_URL,
+                        SecurityConstants.DEFAULT_LOGIN_PROCESSING_URL_MOBILE,
+                        securityProperties.getBrowser().getLoginPage(),
+                        "/code/*")
+                .permitAll()
                 .anyRequest()
                 .authenticated()
                 .and()

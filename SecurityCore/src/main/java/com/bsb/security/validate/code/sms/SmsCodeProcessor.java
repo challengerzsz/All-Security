@@ -8,12 +8,11 @@ import org.springframework.web.bind.ServletRequestBindingException;
 import org.springframework.web.bind.ServletRequestUtils;
 import org.springframework.web.context.request.ServletWebRequest;
 
-import javax.servlet.ServletRequest;
 
 /**
  * @author zeng
  */
-@Component("smsCodeProcessor")
+@Component("smsValidateCodeProcessor")
 public class SmsCodeProcessor extends AbstractValidateCodeProcessor<ValidateCode> {
 
     @Autowired
@@ -22,7 +21,7 @@ public class SmsCodeProcessor extends AbstractValidateCodeProcessor<ValidateCode
     @Override
     protected void send(ServletWebRequest request, ValidateCode validateCode) throws ServletRequestBindingException {
 
-        String mobile = ServletRequestUtils.getRequiredStringParameter((ServletRequest) request, "mobile");
+        String mobile = ServletRequestUtils.getRequiredStringParameter(request.getRequest(), "mobile");
         smsCodeSender.send(mobile, validateCode.getCode());
     }
 }

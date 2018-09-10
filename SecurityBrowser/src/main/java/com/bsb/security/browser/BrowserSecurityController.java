@@ -45,10 +45,12 @@ public class BrowserSecurityController {
 
         SavedRequest savedRequest = requestCache.getRequest(request, response);
 
+        logger.info("进入/authentication/require");
         if (savedRequest != null) {
             String targetUrl = savedRequest.getRedirectUrl();
             logger.info("引发跳转的请求是 " + targetUrl);
             if (StringUtils.endsWithIgnoreCase(targetUrl, ".html")) {
+                logger.info("请求html");
                 logger.info(securityProperties.getBrowser().getLoginPage());
                 redirectStrategy.sendRedirect(request, response, securityProperties.getBrowser().getLoginPage());
             }

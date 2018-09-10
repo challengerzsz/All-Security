@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * @author zeng
  */
-@Component("imageCodeProcessor")
+@Component("imageValidateCodeProcessor")
 public class ImageCodeProcessor extends AbstractValidateCodeProcessor<ImageCode> {
 
     @Override
